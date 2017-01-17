@@ -6,7 +6,7 @@ console.log("this is a js comment");
 
 function setup() {
   createCanvas(800, 250);
-  canvas.parent('mysketch');
+  canvas.parent('mySketch');
   background(0);
 }
 
