@@ -9,6 +9,7 @@ header h1{
 #mySketch {
 	width:800px;
 	height:250px;
+	margin:auto;
 }
 section div {
 	width:300px;
