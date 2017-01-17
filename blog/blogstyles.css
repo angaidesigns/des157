@@ -1,0 +1,26 @@
+body {
+	font-family: Avenir, sans-serif;
+}
+header h1{
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+img {
+	display:block;
+	margin:auto;
+}
+section div {
+	width:300px;
+	float:left;
+}
+#blog {
+	width:800px;
+	margin:auto;
+}
+footer {
+	width:250px;
+	padding-top:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
