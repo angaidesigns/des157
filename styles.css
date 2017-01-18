@@ -6,10 +6,14 @@ header h1{
 	margin-left:auto;
 	margin-right:auto;
 }
+header div{
+	width:800px;
+	height:250px;
+	margin:auto;
+}
 #mySketch {
 	width:800px;
 	height:250px;
-	display:block;
 	margin-right:auto;
 	margin-left:auto;
 }
