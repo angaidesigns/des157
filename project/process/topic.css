@@ -8,6 +8,7 @@ header h1{
 }
 #topics {
   width:800px;
+  margin:auto;
 }
 footer {
 	width:250px;
