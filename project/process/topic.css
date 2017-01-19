@@ -6,8 +6,8 @@ header h1{
 	margin-left:auto;
 	margin-right:auto;
 }
-article {
-  width: 800px;
+#topics {
+  width:800px;
 }
 footer {
 	width:250px;
