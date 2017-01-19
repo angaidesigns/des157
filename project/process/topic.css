@@ -8,10 +8,11 @@ header h1{
 }
 article {
   width:800px;
-  margin:auto;
+
 }
 #topics {
   width:800px;
+  margin:auto;
 }
 footer {
 	width:250px;
