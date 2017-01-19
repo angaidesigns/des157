@@ -6,13 +6,9 @@ header h1{
 	margin-left:auto;
 	margin-right:auto;
 }
-article {
-  width:800px;
-
-}
 #topics {
   width:800px;
-  margin:auto;
+  margin-left: 30%;
 }
 footer {
 	width:250px;
