@@ -7,10 +7,14 @@ header h1{
 	margin-right:auto;
 }
 article h2 {
-  margin-left: 40%;
+  margin-left: 20%;
 }
 article p{
-  margin-left: 40%;
+  margin-left: 20%;
+}
+article img{
+  margin-left: 50%;
+  margin-bottom: 20%;
 }
 #research p{
   width:400px;
