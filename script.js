@@ -5,11 +5,11 @@
 console.log("this is a js comment");
 
 function setup() {
-  var myCanvas = createCanvas(800, 250);
-  myCanvas.parent('mySketch');
-  background(0);
+    var myCanvas = createCanvas(800, 250);
+    myCanvas.parent('mySketch');
+    background(0);
 }
 
 function draw() {
-  ellipse(mouseX,mouseY,50,50);
+    ellipse(mouseX, mouseY, 50, 50);
 }
