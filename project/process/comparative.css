@@ -6,13 +6,13 @@ header h1{
 	margin-left:auto;
 	margin-right:auto;
 }
-#research {
+#research p{
   width:400px;
 }
-#reddit {
+#reddit p{
   width:400px;
 }
-#bakatsuki {
+#bakatsuki p{
   width:400px;
 }
 footer {
