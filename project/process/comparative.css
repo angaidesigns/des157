@@ -6,15 +6,20 @@ header h1{
 	margin-left:auto;
 	margin-right:auto;
 }
+article h2 {
+  margin-left: 60px;
+}
 #research p{
   width:400px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 #reddit p{
   width:400px;
+  margin-left: 60px;
 }
 #bakatsuki p{
   width:400px;
+  margin-left: 60px;
 }
 footer {
 	width:250px;
