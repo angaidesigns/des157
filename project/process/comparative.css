@@ -6,8 +6,11 @@ header h1{
 	margin-left:auto;
 	margin-right:auto;
 }
+article h2 {
+  margin-left: 60%;
+}
 article p{
-  margin-left: 60px;
+  margin-left: 60%;
 }
 #research p{
   width:400px;
