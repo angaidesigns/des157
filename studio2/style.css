@@ -1,10 +1,134 @@
-@charset "UTF-8";
-
-/* CSS Document */
-
-/* start all css with a reset */
-
 * {
-    margin: 0px;
-    padding: 0px
+  margin: 5px;
+  padding: 0px;
+}
+
+body {
+  height: 1000px;
+  background-color: antiquewhite;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 18px;
+}
+
+h1, fieldset {
+  margin-left: 12px;
+}
+
+h1 {
+  //position: relative;
+  top: 5px;
+  left: 24px;
+  z-index: -1;
+  color: cornflowerblue;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+fieldset {
+  //position: relative;
+  top: -8px;
+  width: 20%;
+  padding: 10px;
+  color: antiquewhite;
+  background-color: #222;
+}
+
+#creation {
+  //position: relative;
+  top: -8px;
+  width: 25%;
+  padding: 10px;
+  color: antiquewhite;
+  //border-radius: 20px;
+  background-color: #222;
+}
+
+#desp {
+  //position: relative;
+  top: -8px;
+  width: 25%;
+  padding: 10px;
+  color: antiquewhite;
+  //border-radius: 20px;
+  background-color: #222;
+}
+
+#other {
+  //position: relative;
+  float: right;
+  margin-right:44.4%;
+  margin-top:-38%;
+  top: -8px;
+  width: 25%;
+  padding: 10px;
+  color: antiquewhite;
+  background-color: #222;
+}
+
+div {
+  margin: 5px;
+}
+
+label {
+  width: .6in;
+  text-align: right;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+input[type="text"] {
+  width: 2in;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 6px cornflowerblue solid;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input[type=text]:focus {
+  border-bottom: 6px blue solid;
+  background-color: white;
+  color: black;
+}
+
+#opt {
+  //position: relative;
+  top: -8px;
+  margin-left: 28.8%;
+  margin-top: -80px;
+  width: 25%;
+  padding: 10px;
+  color: antiquewhite;
+  background-color: #222;
+}
+
+input[type="reset"], input[type="submit"] {
+  //position: relative;
+  margin-left: 58px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+  #msg {
+  //visibility: hidden;
+  width:30%;
+  float: right;
+  margin-top: -37.7%;
+  margin-right: 10%;
+  padding:21px;
+}
+
+footer {
+  width: 320px;
+  padding-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
