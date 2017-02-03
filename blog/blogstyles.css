@@ -23,6 +23,11 @@ article div {
   margin: auto;
 }
 
+#blog2 {
+  width: 800px;
+  margin: auto;
+}
+
 footer {
   width: 300px;
   padding-top: 250px;
