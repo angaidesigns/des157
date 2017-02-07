@@ -30,91 +30,91 @@ p {
 
 #london {
 	width:290px;
-	margin-left: 360px;
-	margin-top:420px;
+	left: 360px;
+	top:420px;
 	display: block;
 }
 
 #londoninfo {
 	opacity: 0;
-	margin-top: 600px;
-	margin-left: 130px;
+	top: 600px;
+	left: 130px;
 }
 
 #italy {
 	width:290px;
-	margin-left: 174px;
-	margin-top: 310px;
+	left: 174px;
+	top: 310px;
 	display: block;
 }
 
 #italyinfo {
 	opacity: 0;
-	margin-top: 400px;
+	top: 400px;
 }
 
 #quebec {
 	width: 290px;
-	margin-left: 235px;
-	margin-top: 125px;
+	left: 235px;
+	top: 125px;
 	display: block;
 }
 
 #quebecinfo {
 	opacity: 0;
-	margin-top: 200px;
+	top: 200px;
 }
 
 #hongkong {
 	width: 290px;
-	margin-left: 388px;
-	margin-top: -4px;
+	left: 388px;
+	top: -4px;
 	display: block;
 }
 
 #hongkonginfo {
 	opacity: 0;
-	margin-left: 170px;
-	margin-top: 40px;
+	left: 170px;
+	top: 40px;
 }
 
 #seuol {
 	width: 290px;
-	margin-left: 614px;
-	margin-top: 65px;
+	left: 614px;
+	top: 65px;
 	display: block;
 }
 
 #seuolinfo {
 	opacity: 0;
-	margin-left: 900px;
-	margin-top: 50px;
+	left: 900px;
+	top: 50px;
 }
 
 #paris {
 	width: 290px;
-	margin-left: 716px;
-	margin-top: 189px;
+	left: 716px;
+	top: 189px;
 	display: block;
 }
 
 #parisinfo {
 	opacity: 0;
-	margin-left: 950px;
-	margin-top: 290px;
+	left: 950px;
+	top: 290px;
 }
 
 #taiwan {
 	width: 290px;
-	margin-left: 597px;
-	margin-top: 394px;
+	left: 597px;
+	top: 394px;
 	display: block;
 }
 
 #taiwaninfo {
 	opacity: 0;
-	margin-left: 860px;
-	margin-top: 510px;
+	left: 860px;
+	top: 510px;
 }
 
 footer {
