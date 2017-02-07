@@ -2,14 +2,22 @@ header {
 	font-family: Tahoma, Geneva, sans-serif;
 }
 
-#collection {
+#collect {
 	position: relative;
 	width: 1200px;
 	height:750px;
 	margin: auto;
 }
 
+#collection {
+	position: absolute;
+}
 
+#london {
+	width: 300px;
+	left: 500px;
+	display: block;
+}
 
 footer {
 	text-align: center;
