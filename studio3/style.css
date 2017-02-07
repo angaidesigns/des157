@@ -1,3 +1,7 @@
+body {
+	width: 100%;
+}
+
 header {
 	font-family: Tahoma, Geneva, sans-serif;
 }
@@ -9,13 +13,25 @@ header {
 	margin: auto;
 }
 
-#collection {
+#collect img {
 	position: absolute;
 }
 
+#collection {
+	margin: auto;
+}
+
 #london {
-	width: 300px;
-	left: 500px;
+	width:290px;
+	margin-left: 360px;
+	margin-top:420px;
+	display: block;
+}
+
+#italy {
+	width:290px;
+	margin-left: 174px;
+	margin-top: 310px;
 	display: block;
 }
 
