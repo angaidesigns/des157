@@ -4,6 +4,7 @@ body {
 
 header {
 	font-family: Tahoma, Geneva, sans-serif;
+	margin-left: 50px;
 }
 
 #collect {
@@ -35,6 +36,42 @@ header {
 	display: block;
 }
 
+#quebec {
+	width: 290px;
+	margin-left: 235px;
+	margin-top: 125px;
+	display: block;
+}
+
+#hongkong {
+	width: 290px;
+	margin-left: 388px;
+	margin-top: -4px;
+	display: block;
+}
+
+#seuol {
+	width: 290px;
+	margin-left: 614px;
+	margin-top: 65px;
+	display: block;
+}
+
+#paris {
+	width: 290px;
+	margin-left: 716px;
+	margin-top: 189px;
+	display: block;
+}
+
+#taiwan {
+	width: 290px;
+	margin-left: 597px;
+	margin-top: 394px;
+	display: block;
+}
+
 footer {
+	position: relative;
 	text-align: center;
 }
