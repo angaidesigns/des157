@@ -7,6 +7,14 @@ header {
 	margin-left: 50px;
 }
 
+section h3 {
+	position:absolute;
+	top: -40px;
+	width: 400px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: lighter;
+}
+
 p {
 	font-family: Tahoma, Geneva, sans-serif;
 	position: absolute;
