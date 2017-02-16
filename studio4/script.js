@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 
     // all other js here
-    CountDownTimer('6/17/2017 02:00 PM', 'countdown');
+    CountDownTimer('6/17/2017 02:00 PM', 'commence');
 
 function CountDownTimer(dt, id) {
     var end = new Date(dt);
@@ -35,4 +35,4 @@ function CountDownTimer(dt, id) {
 
     timer = setInterval(showRemaining, 1000);
 }
-}
+});
