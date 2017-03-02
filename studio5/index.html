@@ -8,12 +8,12 @@
     <!-- <script type="text/javascript" src="script.js"></script> -->
     <script type="text/paperscript" canvas="canvas">
     // The amount of symbol we want to place;
-    var count = 150;
+   var count = 10;
 
     // Create a symbol, which we will use to place instances of later:
     var path = new Path.Circle({
         center: new Point(0, 0),
-        radius: 5,
+        radius: 30,
         fillColor: 'white',
         strokeColor: 'black'
     });
@@ -46,7 +46,7 @@
 
     // The onFrame function is called up to 60 times a second:
     function onFrame(event) {
-        vector = vector + (mouseVector - vector) / 30;
+        vector = vector + (mouseVector - vector) / 10000;
 
         // Run through the active layer's children list and change
         // the position of the placed symbols:
@@ -84,6 +84,6 @@
 <body>
     <canvas id="canvas" resize="" hidpi="off" style="background: black;
     -webkit-user-drag: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
-    width="171" height="638" data-paper-scope="1"></canvas>
+    width="1350" height="600" data-paper-scope="1"></canvas>
 </body>
 </html>
