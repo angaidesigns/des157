@@ -22,7 +22,32 @@ li a {
   float: right;
 }
 
+/* overlay for create tab */
+aside{
+  position:absolute;
+  top:0px;
+  right:0px;
+  width:100%;
+  height:100%;
+  background-color:#000;
+  color:blue;
+  display:none;
+  opacity:.85;
+}
+aside p {
+  position:absolute;
+  top:20%;
+  width: 100%;
+  background: white;
+  text-align:center;
+}
+aside #close{
+  position:absolute;
+  top:10%;
+  right:30px;
+}
 
+/* footer stuff */
 footer {
   width: 320px;
   padding-top: 250px;
