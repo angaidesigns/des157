@@ -1,3 +1,9 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 12pt;
+}
+
+/*nav*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,14 +19,10 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 #banner {
     text-align: center;
 }
 
-#searchBar {
-  float: right;
-}
 
 /* overlay for create tab */
 aside{
@@ -81,6 +83,20 @@ input[type="reset"] {
   margin-right: 20px;
   background: linear-gradient(180deg, rgba(0,0,200,0),rgba(0,150,200,1));
   text-transform: uppercase;
+}
+
+/*about tab*/
+aside p {
+  position:relative;
+  top:20%;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+aside #close2{
+  position:absolute;
+  top:10%;
+  right:30px;
 }
 
 /* footer stuff */
