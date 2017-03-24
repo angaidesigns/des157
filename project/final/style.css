@@ -26,7 +26,9 @@ li a {
 }
 
 #banner {
-    text-align: center;
+    display:block;
+    margin:auto;
+    padding-bottom: 25px;
 }
 
 /* overlay for create tab */
@@ -120,7 +122,7 @@ aside #close2{
 
 h3 {
   position:absolute;
-  top: 170px;
+  top: 195px;
   left: 300px;
   font-size: 15pt;
 }
