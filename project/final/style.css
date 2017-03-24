@@ -99,6 +99,10 @@ aside #close2{
   right:30px;
 }
 
+#yourPosts{
+	display: none;
+}
+
 /* footer stuff */
 footer {
   width: 320px;

@@ -44,7 +44,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
           if (anon.checked == true) {
               article.innerHTML = "<h2>" + title + "</h2> <h3>Anonymous Poster</h3> <h3>" + month + "-" + date + "-" + year + "</h3> <br><h5>Today...</h5> <p>" + story + "</p> <br> <br><h5>I will pass it on by... </h5><br><br>";
-          } else {
+          }
+          else {
               article.innerHTML = "<h2>" + title + "</h2> <h3>" + name + "</h3> <h3>" + month + "-" + date + "-" + year + "</h3> <br><h5>Today...</h5> <p>" + story + "</p> <br><br> <h5>I will pass it on by... </h5><br><br>";
           }
 
