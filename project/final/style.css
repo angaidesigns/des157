@@ -124,11 +124,12 @@ section h4 {
   width: 800px;
   height: 400px;
   background-color: gray;
+  overflow-wrap: break-word;
   overflow:scroll;
 }
 
 #your-post article{
-  max-width: 300px !important;
+
 }
 
 /* footer stuff */
