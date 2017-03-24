@@ -12,6 +12,7 @@ ul {
 }
 li {
     float: left;
+    font-size: 15pt;
 }
 li a {
     display: block;
@@ -22,7 +23,6 @@ li a {
 #banner {
     text-align: center;
 }
-
 
 /* overlay for create tab */
 aside{
@@ -111,12 +111,32 @@ aside #close2{
   right:30px;
 }
 
+section h4 {
+  position:absolute;
+  top: -30px;
+  left: 10px;
+  font-size: 20pt;
+}
 
+#your-posts {
+  position:absolute;
+  left: 300px;
+  width: 800px;
+  height: 400px;
+  background-color: gray;
+  overflow:scroll;
+}
+
+#your-post article{
+  max-width: 300px !important;
+}
 
 /* footer stuff */
 footer {
+  position:absolute;
   width: 320px;
-  padding-top: 250px;
+  left: 40%;
+  padding-top: 450px;
   margin-left: auto;
   margin-right: auto;
 }

@@ -39,14 +39,12 @@ document.addEventListener("DOMContentLoaded", function() {
         var article1 = document.createElement("article");
 
         if (anon.checked == true) {
-            article.innerHTML = "<h2>" + mainTitle + "</h2> <h3>Anonymous Poster</h3>  <br><h5>Author</h5> <p>" + mainContent + "</p> <br> <br><h5>Story</h5><p>" + mainPass + "</p> <br><br>";
+            article.innerHTML = "<h4>" + mainTitle + "</h4> <h5>Anon</h5> <h5>Story</h5> <p>" + mainPass + "</p>";
         } else {
-            article.innerHTML = "<h2>" + mainTitle + "</h2>   <br><h5>Author</h5> <p>" + mainContent + "</p> <br><br> <h5>Story</h5><p>" + mainPass + "</p> <br><br>";
+            article.innerHTML = "<h4>" + mainTitle + "</h4> <h5>Author</h5> <p>" + mainContent + "</p> <h5>Story</h5> <p>" + mainPass + "</p>";
         }
 
         yourPosts.insertBefore(article, yourPosts.childNodes[2]);
-
-
         title.value = "";
         name.value = "";
         story.value = "";
