@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  position: relative;
+  left: 60px;
+}
+
+#test {
+  position: relative;
+  width: 800px;
+  left: 60px;
+}
+
+label {
+  font-weight: bold;
+}
+
+h4 {
+  position: relative;
+  left: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  position:relative;
+  left: 20px;
+}
+
+#results{
+  postion: relative;
+  width: 800px;
+}
+
+footer {
+  position: relative;
+  margin:0;
+  padding:0;
+	text-align: center;
+}
