@@ -25,6 +25,8 @@ h6 {
   visibility: hidden;
 }
 
+
+
 #banner {
     display:block;
     margin:auto;
@@ -143,7 +145,7 @@ h3 {
 
 /* footer stuff */
 footer {
-  position:absolute;
+  position: absolute;
   width: 320px;
   left: 40%;
   padding-top: 450px;
